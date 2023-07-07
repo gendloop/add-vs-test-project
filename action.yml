@@ -30,7 +30,7 @@ runs:
         $result = Test-Path $sln_file
         if ($result -eq $true) {
           echo "Locate file $sln_file"
-          Write-Host "result=true" >> $env:GITHUB_OUTPUT
+          "result=true" >> $env:GITHUB_OUTPUT
         }
         else {
           echo "Fail to locate file $sln_file"
