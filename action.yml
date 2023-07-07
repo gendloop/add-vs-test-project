@@ -56,6 +56,7 @@ runs:
         cp -f "${{ github.action_path }}/docs/NewProject.sln" "${{ steps.get-repo-name.outputs.reponame }}.sln"
 
         # copy project
+        mkdir ${{ steps.get-repo-name.outputs.reponame }}UTest
         cp -f "${{ github.action_path }}/docs/NewProjectUTest/NewProjectUTest.vcxproj" "${{ steps.get-repo-name.outputs.reponame }}UTest\${{ steps.get-repo-name.outputs.reponame }}UTest.vcxproj"
         cp -f "${{ github.action_path }}/docs/NewProjectUTest/NewProjectUTest.vcxproj.user" "${{ steps.get-repo-name.outputs.reponame }}UTest\${{ steps.get-repo-name.outputs.reponame }}UTest.vcxproj.user"
         cp -f "${{ github.action_path }}/docs/NewProjectUTest/packages.config" "${{ steps.get-repo-name.outputs.reponame }}UTest\packages.config"
