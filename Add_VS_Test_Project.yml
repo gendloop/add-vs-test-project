@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  template_name:
+  add_vs_test_project:
     runs-on: ubuntu-latest
     steps:
       - name: add-vs-test-project
