@@ -26,6 +26,7 @@ runs:
       shell: pwsh
       run: |
         $sln_file = "${{ steps.get-repo-name.outputs.reponame }}.sln"
+        ls
         $result = Test-Path $sln_file
         Write-Host "result=$result" >> $env:GITHUB_OUTPUT
         if ($result -eq $true) {
