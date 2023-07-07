@@ -19,6 +19,7 @@ runs:
       shell: bash
       run: |
         repo_name=${GTIHUB_REPOSITORY#*/}
+        echo $repo_name
         echo "reponame=$repo_name" >> "$GITHUB_OUTPUT"
 
     - name: check-vs-solution-file
