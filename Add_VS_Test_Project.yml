@@ -1,0 +1,19 @@
+name: Add_VS_Test_Project
+
+permissions:
+  contents: write
+  actions: write
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  template_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: add-vs-test-project
+        uses: gendloop/add-vs-test-project@main
+        with: 
+          token: ${{ github.token }}
+
+      
