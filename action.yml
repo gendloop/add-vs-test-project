@@ -18,8 +18,7 @@ runs:
       id: get-repo-name
       shell: bash
       run: |
-        repo_name=${GTIHUB_REPOSITORY#*/}
-        echo $repo_name
+        repo_name=${GITHUB_REPOSITORY#*/}
         echo "reponame=$repo_name" >> "$GITHUB_OUTPUT"
 
     - name: check-vs-solution-file
