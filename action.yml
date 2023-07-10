@@ -47,7 +47,7 @@ runs:
       shell: bash
       run: |
         # copy packages
-        cp -r -f ${{ github.action_path }}/packages .
+        # cp -r -f ${{ github.action_path }}/packages .
         
         # copy tests
         cp -r -f ${{ github.action_path }}/tests .
