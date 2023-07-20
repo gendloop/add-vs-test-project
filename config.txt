@@ -1,0 +1,5 @@
+
+PROJECT_NAME=add-vs-test-project
+add-vs-test-project_VERSION_MAJOR=1
+add-vs-test-project_VERSION_MINOR=0
+add-vs-test-project_VERSION_PATCH=0
