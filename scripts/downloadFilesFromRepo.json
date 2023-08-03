@@ -38,11 +38,11 @@
         },
         {
             "files": [
-                ".github/workflows/Copy_Secrets.yml"
+                "GitHubActions/FUNDING.yml"
             ],
-            "local_dir": "../.github/workflows",
+            "local_dir": "../.github",
             "user": "gendloop",
-            "repo": "copy-secrets",
+            "repo": "Tools",
             "branch": "main",
             "is_private": false,
             "token": ""
