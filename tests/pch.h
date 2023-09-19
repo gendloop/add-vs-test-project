@@ -6,7 +6,7 @@
 #pragma once
 
 // c++
-#include <iosteam>
+#include <iostream>
 
 // gtest
 #include "gtest/gtest.h"
