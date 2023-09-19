@@ -55,10 +55,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\tests\test.cpp" />
+    <ClCompile Include="..\tests\example.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\tests\pch.h" />
+    <ClInclude Include="..\tests\common.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
