@@ -35,6 +35,6 @@ TEST(Example, Case2) {
 }
 // code-end
 
-// output
+// note
 // Note something
-// output-end
+// note-end
