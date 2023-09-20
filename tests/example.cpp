@@ -20,7 +20,7 @@ TEST(Example, Case1) {
 	
 	INFO << "group_name: Example; case_name: Case1" << std::endl;
 	// image
-	// <img src="../res/image1.png" style="max-width:100%;height:auto;">
+	// <img src="res/image1.png" style="max-width:100%;height:auto;">
 	// image_end
 }
 
@@ -30,7 +30,7 @@ TEST(Example, Case2) {
 	
 	INFO << "group_name: Example; case_name: Case2" << std::endl;  
 	// image
-	// <img src="../res/image2.png" style="max-width:100%;height:auto;">
+	// <img src="res/image2.png" style="max-width:100%;height:auto;">
 	// image_end
 }
 // code-end
