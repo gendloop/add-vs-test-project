@@ -1,7 +1,7 @@
 #include "pch.h"
 
 // author
-// gendloop
+// gendloop rongyu183
 // author-end
 
 // brief
@@ -9,9 +9,9 @@
 // brief-end
 
 // include
-// c++
-#include <string>
-#include <vector>
+// occt
+//#include <gp_Pnt.hxx>
+//#include <TopoDS_Shape.hxx>
 // include-end
 
 // code
@@ -19,11 +19,21 @@ TEST(Example, Case1) {
   DEBUG << "Example: Case1" << std::endl;
   
   INFO << "group_name: Example; case_name: Case1" << std::endl;
+  // image
+  // <img src="../res/image1.png" style="max-width:100%;height:auto;">
+  // image_end
 }
 
 TEST(Example, Case2) {
   DEBUG << "Example: Case2" << std::endl;
   
-  INFO << "group_name: Example; case_name: Case2" << std::endl;
+  INFO << "group_name: Example; case_name: Case2" << std::endl;  
+  // image
+  // <img src="../res/image2.png" style="max-width:100%;height:auto;">
+  // image_end
 }
 // code-end
+
+// output
+// Note something
+// output-end
