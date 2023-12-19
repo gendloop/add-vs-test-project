@@ -17,7 +17,7 @@
 // code
 TEST(Example, Case1) {
 	DEBUG << "Example: Case1" << std::endl;
-	
+
 	INFO << "group_name: Example; case_name: Case1" << std::endl;
 	// image
 	// <img src="res/image1.png" style="max-width:100%;height:auto;">
@@ -27,8 +27,8 @@ TEST(Example, Case1) {
 TEST(Example, Case2) {
 
 	DEBUG << "Example: Case2" << std::endl;
-	
-	INFO << "group_name: Example; case_name: Case2" << std::endl;  
+
+	INFO << "group_name: Example; case_name: Case2" << std::endl;
 	// image
 	// <img src="res/image2.png" style="max-width:100%;height:auto;">
 	// image_end

@@ -43,7 +43,7 @@ runs:
       run: |
         # copy packages
         # cp -r -f ${{ github.action_path }}/packages .
-        
+
         # copy tests
         cp -r -f ${{ github.action_path }}/tests .
 
@@ -61,7 +61,7 @@ runs:
       run: |
         # copy packages
         # cp -r -f ${{ github.action_path }}/packages .
-        
+
         # copy tests
         cp -r -f ${{ github.action_path }}/tests .
 
@@ -90,7 +90,7 @@ runs:
     - name: replace-RepoName
       # if: ${{ steps.check-vs-solution-file.outputs.result == 'true' }}
       uses: gendloop/replace-str@v1.0.1
-      with: 
+      with:
         token: ${{ github.token }}
         path-to-replace: ${{ steps.get-repo-name.outputs.reponame }}.sln
         replace-to-path: ${{ steps.get-repo-name.outputs.reponame }}.sln

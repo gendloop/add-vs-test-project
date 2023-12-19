@@ -4,7 +4,7 @@ permissions:
   contents: write
   actions: write
 
-on: 
+on:
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: add-vs-test-project
         uses: gendloop/add-vs-test-project@v1.0.5
-        with: 
+        with:
           token: ${{ github.token }}
 
-      
+
