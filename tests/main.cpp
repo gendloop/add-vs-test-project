@@ -2,7 +2,7 @@
 
 int main(int argc, char* argv[]) {
 	::testing::InitGoogleTest(&argc, argv);
-    ::testing::FLAGS_gtest_filter = "TestRxample.Case1";
+    ::testing::FLAGS_gtest_filter = "TestExample.Case1";
 
     //::testing::FLAGS_gtest_filter += "TestCaseName.TestName";
 
